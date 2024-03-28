@@ -1,0 +1,19 @@
+.flex-container {   /* Selects the flex-container HTML class */
+    display: flex;                  /* Sets the display property to flex */
+    background-color: aqua;       /* Sets background color to aqua */
+    flex-direction: row;            /* Sets the flex-direction property to row */
+    flex-wrap: wrap;                /* Sets the flex-wrap property to wrap */
+    align-content: space-between;   /* Sets the align-content property to space-between */
+}
+
+.flex-container > div { /* Selects all flex-box items */
+    background-color: green;    /* Sets background-color to green */
+    padding: 10px;  /* Sets padding to 10 px */
+    margin: 5px;    /* Sets margin to 5 px */
+}
+
+img {   /* Selects all img tags */
+    width: 300px;   /* Sets image width to 300 px */
+    height: 200px;  /* Sets image height to 200 px */
+    cursor: pointer;    /* Sets cursor to pointer */
+}
